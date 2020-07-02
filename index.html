@@ -1,0 +1,75 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/index_style.css">
+    </head>
+<body> 
+  
+  <div class="optionBox">
+
+    <div class="color-options">
+      <p>Colors</p>
+
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+  
+    </div>
+
+    <i class="fas fa-palette fa-2x doss"></i>
+
+    <div class="clr"></div>
+
+</div>
+
+  <header class="mt-5">
+		<div class="  container colorChange ">
+			<h3 class="" >Bookmarker</h3>
+		</div>
+	</header>
+
+  <div class=" w-75 pt-3 mt-3 border-top px-5 mx-5 " style="height: 1px;"></div>
+
+  <div class=" rounded-lg container text-center bg-mine pt-5 pb-3">
+     <h4 class="my-3 colorChange">Bookmark your favorite sites</h4>
+    <div >
+  <label class="colorChange" >site Name</label><br>
+  <input  id="siteName" class="form-control w-75 mx-auto colorChange" type="text"><br>
+  
+  <label class="colorChange" >site Link</label><br>
+  <input id="siteLink" class="form-control w-75 mx-auto colorChange" type="text"><br>
+
+
+  <button id="forAdd" onclick="newBookmark()" class="btn btn-info itshover">Add</button><br>
+  <button id="forUpdate" style="display: none;" class="btn btn-success colorChange">do Updates</button>
+  </div>
+
+  <div class=" rounded-sm w-50 mx-auto py-2 mt-5">
+    <input onkeyup="search(this.value)" class="form-control w-50 m-auto colorChange" placeholder="search">
+  </div>
+
+
+</div>
+
+<div id="demo" class=" container my-3 py-1 px-1"> </div>
+
+<div class=" w-75 pt-3 mt-3 border-top px-5 mx-5 " style="height: 1px;"></div>
+
+<div class="container">
+  <h6>© 2019 Bookmarker Inc. </h6>
+</div>
+
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/f1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

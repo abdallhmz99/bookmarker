@@ -1,0 +1,59 @@
+header h3 
+{color:#AAAAAA;}
+.bg-mine
+{background-color: #eeeeee;}
+
+:hover .itshover
+{box-shadow: 10px 10px 5px grey;
+ background-color: rgba(0,0,0,.5);
+}
+.onemarkbg
+{background-image:linear-gradient(#EEE,#FFF)}
+
+
+.colorChange
+{
+    transition: color 1.5s;
+}
+
+
+
+
+.optionBox
+{
+    width: 20%;
+    position: fixed;
+    top: 45%;
+    left: 0;
+    z-index: 788787878;
+}
+
+.color-options
+{
+    border: 3px solid #09c;
+    background-color: #ccc;
+    float: left;
+    padding: 20px;
+    display:none;
+}
+
+
+.color-options ul li
+{
+    width: 20px;
+    height: 20px;
+    background-color: hotpink;
+
+display: inline-block;
+
+cursor: pointer;
+}
+
+
+
+.optionBox i 
+{
+    float: left;
+    border: 3px solid #ccc;
+    cursor: pointer;
+}
